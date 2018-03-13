@@ -1,0 +1,130 @@
+* {
+    webkit-margin-before: 0em;
+    webkit-margin-after: 0em;
+    
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.countdown  {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 80em;
+    font-weight: 100;
+
+}
+
+.countdown-number {
+    display: absolute;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -50%;
+}
+
+#ten,
+#nine,
+#eight,
+#seven,
+#six,
+#five,
+#four,
+#three,
+#two,
+#one,
+#text
+{
+    visibility: hidden;
+}
+
+#ten {
+    animation: 1s fadeIn;
+    animation-fill-mode:forwards;
+}
+
+#nine {
+    animation: 1s fadeIn;
+    animation-fill-mode:forwards;
+    animation-delay: 1s;
+}
+
+#eight{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+#seven{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+#six{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+#five{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+#four{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+#three{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+#two{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+#one{
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+#text {
+    animation: 1s fadeInOut;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    font-size:20em;
+   
+  
+}
+
+@keyframes fadeIn {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+
+}
+
+@keyframes fadeInOut {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+
+}
