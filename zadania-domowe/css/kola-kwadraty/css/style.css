@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+}
+
+
+                                /* Main Container */
+
+#container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;   
+    background-color: white;
+   
+
+}
+    
+
+
+                                /* Squares Colors*/
+
+#square-green {
+    background-color: green;
+}
+#square-yellow {
+   background-color: yellow;
+}
+#square-blue {
+    background-color: blue;            
+}
+
+#square-magenta {
+    background-color: magenta;
+} 
+
+#square-aquamarine {
+    background-color: aquamarine;
+}  
+
+#square-grey {
+    background-color: gray;
+}
+
+#square-burlywood {
+    background-color: burlywood;
+}
+
+
+#square-violet {
+    background-color: violet;
+} 
+
+#square-brown {
+    background-color: brown;
+}
+
+                                /* Circles colors*/
+#circle-red {
+    background-color: red;
+}
+
+#circle-blueviolet {
+    background-color: blueviolet;
+}
+#circle-goldenrod {
+    background-color: goldenrod;
+}
+#circle-aqua {
+    background-color: aqua;
+}
+#circle-darksletgray {
+    background-color: darkslategray;
+}
+#circle-firebrick {
+    background-color: firebrick;
+}
+#circle-darkblue {
+    background-color: darkblue;
+}
+#circle-yellowgreen {
+    background-color: yellowgreen;
+}
+#circle-lawngreen {
+    background-color: lawngreen;
+}
+
+
+
+                                /*Squares position*/
+
+/*
+#square-green, #square-yellow, #square-blue {
+ 
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#square-magenta, #square-aquamarine,  #square-grey {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#square-burlywood, #square-violet, #square-brown {
+     width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+*/
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+                                /* Circles position */
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
