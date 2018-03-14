@@ -1,8 +1,10 @@
+/*
 * {
     webkit-margin-before: 0em;
     webkit-margin-after: 0em;
     
 }
+*/
 
 
 body {
@@ -13,12 +15,12 @@ body {
 .countdown  {
     position: relative;
     width: 50%;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
     margin-top: 25%;
     margin-left: 25%;
     margin-right: 25%;
-    font-size: 80em;
+    font-size: 50em;
     font-weight: 100;
 
 }
@@ -101,7 +103,10 @@ body {
     animation: 1s fadeInOut;
     animation-fill-mode: forwards;
     animation-delay: 10s;
-    font-size:20em;
+    font-size:40px;
+    top: 50%;
+    
+    position: fixed;
    
   
 }
