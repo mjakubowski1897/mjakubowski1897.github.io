@@ -6,13 +6,12 @@
 }
 */
 
-
 body {
     background-color: black;
     color: white;
 }
 
-.countdown  {
+.countdown {
     position: relative;
     width: 50%;
     height: 70vh;
@@ -31,6 +30,7 @@ body {
     left: 0;
     right: 0;
     top: -50%;
+    visibility: hidden;
 }
 
 #ten,
@@ -43,92 +43,87 @@ body {
 #three,
 #two,
 #one,
-#text
-{
-    visibility: hidden;
+#text {
+
+    animation: 1s fadeIn;
+    animation-fill-mode: forwards;
 }
 
-#ten {
-    animation: 1s fadeIn;
-    animation-fill-mode:forwards;
-}
+#ten {}
 
 #nine {
-    animation: 1s fadeIn;
-    animation-fill-mode:forwards;
+
     animation-delay: 1s;
 }
 
-#eight{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+#eight {
+
     animation-delay: 2s;
 }
-#seven{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#seven {
+
     animation-delay: 3s;
 }
-#six{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#six {
+
     animation-delay: 4s;
 }
-#five{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#five {
+
     animation-delay: 5s;
 }
-#four{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#four {
+
     animation-delay: 6s;
 }
-#three{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#three {
+
     animation-delay: 7s;
 }
-#two{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#two {
+
     animation-delay: 8s;
 }
-#one{
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+
+#one {
+
     animation-delay: 9s;
 }
+
 #text {
-    animation: 1s fadeInOut;
-    animation-fill-mode: forwards;
+
     animation-delay: 10s;
-    font-size:40px;
+    font-size: 40px;
     top: 50%;
-    
     position: fixed;
-   
-  
+
+
 }
 
 @keyframes fadeIn {
-    0%{
+    0% {
         visibility: hidden;
     }
-    99%{
+    99% {
         visibility: visible;
     }
-    100%{
+    100% {
         visibility: hidden;
     }
 
 }
 
 @keyframes fadeInOut {
-    0%{
+    0% {
         visibility: hidden;
     }
-    100%{
+    100% {
         visibility: visible;
     }
 
